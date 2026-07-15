@@ -4,10 +4,10 @@ import { FiSearch, FiShoppingBag } from "react-icons/fi";
 
 const Header = () => {
   return (
-    <header className="border-[4px] border-primary bg-primary-light">
+    <header className="bg-primary-light">
       <div className="container mx-auto flex h-15 items-center justify-between px-20">
         
-        {/* Logo */}
+        {/* Logo */}s
         <Link href="/">
           <Image
             src="/images/logo.svg"
