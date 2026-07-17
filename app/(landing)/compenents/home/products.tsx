@@ -44,9 +44,9 @@ const productList = [
 
 const ProductsSection = () => {
   return (
-    <section id="products-section" className="container mx-auto mb-10">
-      <h2 className="font-bold italic text-4xl text-center mb-11">
-        <span className="text-primary">OUR </span>PRODUCTS
+    <section id="products-section" className="container mx-auto mb-15">
+      <h2 className="font-bold italic text-4xl text-center mb-15">
+        <span className="text-primary mt-15">OUR </span>PRODUCTS
       </h2>
       <div className="grid grid-cols-4 gap-5 mx-5 px-5 mb-10">
         {productList.map((product, index) => (

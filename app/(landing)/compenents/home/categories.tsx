@@ -31,15 +31,15 @@ const categoryList = [
 
 const CategoriesSection = () => {
   return (
-    <section id="category-section" className="container mx-auto pb-20">
+    <section id="category-section" className="container mx-auto pb-15">
       <div className="flex justify-between">
-        <h2 className="font-bold text-2xl mt-10 ml-10">Browse By Categories</h2>
-        <Link href="#" className="flex gap-2 text-primary font-medium mr-10 mt-10">
+        <h2 className="font-bold text-2xl mt-15 ml-15">Browse By Categories</h2>
+        <Link href="#" className="flex gap-2 text-primary font-medium mr-15 mt-15">
           <span className="self-center">See All Categories</span>
           <FiArrowRight className="self-center" />
         </Link>
       </div>
-      <div className="grid grid-cols-6 gap-6 mt-10 px-10">
+      <div className="grid grid-cols-6 gap-6 mt-15 px-15">
         {categoryList.map((category, index) => (
           <div
             className="  rounded-lg bg-gradient-to-r from-[#F1F1F1] to-[#F7F7F7] w-full aspect-square flex justify-center"
