@@ -4,7 +4,7 @@ import { FiSearch, FiShoppingBag } from "react-icons/fi";
 
 const Header = () => {
   return (
-    <header className="bg-primary-light">
+    <header className="fixed top-0 left-0 z-50 w-full bg-primary-light shadow-sm">
       <div className="container mx-auto flex h-15 items-center justify-between px-20">
         
         {/* Logo */}
