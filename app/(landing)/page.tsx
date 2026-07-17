@@ -1,6 +1,13 @@
-import Image from "next/image";
-import { FcCalendar } from "react-icons/fc";
+import HeroSection from "./compenents/home/hero";
+import CategoriesSection from "./compenents/home/categories";
+import ProductsSection from "./compenents/home/products";
 
 export default function Home() {
-  return <main></main>
+  return (
+    <main>
+      <HeroSection />
+      <CategoriesSection />
+      <ProductsSection />
+    </main>
+  );
 }

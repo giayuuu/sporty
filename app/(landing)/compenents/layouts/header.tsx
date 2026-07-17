@@ -7,7 +7,7 @@ const Header = () => {
     <header className="bg-primary-light">
       <div className="container mx-auto flex h-15 items-center justify-between px-20">
         
-        {/* Logo */}s
+        {/* Logo */}
         <Link href="/">
           <Image
             src="/images/logo.svg"
