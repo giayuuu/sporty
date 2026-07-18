@@ -8,7 +8,7 @@ const OrderStatus = () => {
   const [isConfirmed, setIsConfirmed] = useState(false);
 
   return (
-    <main className="bg-gray-100 min-h-screen ">
+    <main className="bg-gray-100 min-h-screen pb-10">
       <div className="max-w-6xl mx-auto px-8 pt-16">
         <h1 className="text-4xl font-bold text-center mb-8 mt-8">Order Status</h1>
       </div>
